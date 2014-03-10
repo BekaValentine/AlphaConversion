@@ -4,6 +4,7 @@
 -- vars before hand, substitution is cleaner. When type checking
 -- we know what vars are in scope because they're given by the context
 -- so capture-avoiding substitution should take advantage of that
+--
 
 {-# LANGUAGE TypeSynonymInstances, FlexibleInstances #-}
 
